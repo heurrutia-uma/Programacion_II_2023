@@ -93,30 +93,52 @@ namespace Ejercicio3
         /// </summary>
         static void VisualizarLista()
         {
-            Console.Clear();
-            Console.WriteLine("|No.  |NOMBRES             |APELLIDOS           |EMAIL                         |");
-
+            string cabeceraTabla = "|No.  |NOMBRES             |APELLIDOS           |EMAIL                         |";
             string lineaTabla = LINEA_CARACTERES;
             lineaTabla = ReemplazarEn(lineaTabla, 0, '+');
             lineaTabla = ReemplazarEn(lineaTabla, 6, '+');
             lineaTabla = ReemplazarEn(lineaTabla, 27, '+');
             lineaTabla = ReemplazarEn(lineaTabla, 48, '+');
             lineaTabla = ReemplazarEn(lineaTabla, 79, '+');
-            Console.WriteLine(lineaTabla);
 
             int idx = 1;
+            int ln = 0;
 
             using (StreamReader reader = new StreamReader(archivo))
             {
                 while (!reader.EndOfStream)
                 {
+                    if (ln == 0)
+                    {
+                        Console.Clear();
+                        Console.WriteLine(cabeceraTabla);
+                        Console.WriteLine(lineaTabla);
+                    }
+
                     string[] linea = reader.ReadLine().Split(',');
                     Console.WriteLine($"|{idx.ToString().PadRight(5)}|{linea[0].PadRight(20)}|{linea[1].PadRight(20)}|{linea[2].PadRight(30)}|");
                     idx++;
+                    ln++;
+                    
+                    if(ln == MAX_FILAS - 4 && !reader.EndOfStream)
+                    {
+                        ln = 0;
+                        Console.WriteLine(lineaTabla);
+                        Console.Write("Presione [Enter] para continuar... ");
+                        Console.ReadLine();
+                    }
+                    
                 }
             }
 
             Console.WriteLine(lineaTabla);
+            Console.Write("Presione [A]gregar | [B]orrar | [Enter] para salir. ");
+            string resp = Console.ReadLine();
+
+            if (resp == "A" || resp == "a")
+                AgregarRegistro();
+            else if (resp == "B" || resp == "b")
+                EliminarRegistro();
             Console.ReadLine();
         }
 
@@ -165,9 +187,18 @@ namespace Ejercicio3
             if (posicion > 0)
             {
                 List<string> lineas = File.ReadAllLines(archivo).ToList();
-                lineas.RemoveAt(posicion - 1);
 
-                File.WriteAllLines(archivo, lineas);
+                if (posicion <= lineas.Count)
+                {
+                    lineas.RemoveAt(posicion - 1);
+
+                    File.WriteAllLines(archivo, lineas);
+                }
+                else
+                {
+                    Console.WriteLine($"Línea fuera del rango.\nArchivo tiene {lineas.Count} líneas.");
+                    Console.ReadLine();
+                }
             }
         }
 
