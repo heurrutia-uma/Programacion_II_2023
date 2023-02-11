@@ -15,4 +15,4 @@ Ejercicios desarrollados en clase
     - [Práctica 6](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad1/Practica6)
     - [Práctica 7](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad1/Practica7)
   - Clase 04/02/2023
-    - [Ejercicio 3](https://github.com/heurrutia-uma/Programacion_II_2023/blob/Unidad1Ejercicio3/Unidad1/Ejercicio3/Program.cs)
+    - [Ejercicio 3](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad1/Ejercicio3)
