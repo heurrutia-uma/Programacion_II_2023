@@ -16,3 +16,6 @@ Ejercicios desarrollados en clase
     - [Práctica 7](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad1/Practica7)
   - Clase 04/02/2023
     - [Ejercicio 3](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad1/Ejercicio3)
+- Unidad 2
+  - Clase 11/02/2023
+    - [Ejercicio 1](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad2/Ejercicio1)
