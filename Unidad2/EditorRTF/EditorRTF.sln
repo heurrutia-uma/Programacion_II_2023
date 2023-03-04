@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditorRTF", "EditorRTF.csproj", "{789AD44D-5C6C-4E85-B7CE-D2F3D9971005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditorRTF.Funciones", "..\EditorRTF.Funciones\EditorRTF.Funciones.csproj", "{4F85AC37-93FD-4197-9876-51E44E4F1C49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{789AD44D-5C6C-4E85-B7CE-D2F3D9971005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{789AD44D-5C6C-4E85-B7CE-D2F3D9971005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{789AD44D-5C6C-4E85-B7CE-D2F3D9971005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{789AD44D-5C6C-4E85-B7CE-D2F3D9971005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F85AC37-93FD-4197-9876-51E44E4F1C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F85AC37-93FD-4197-9876-51E44E4F1C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F85AC37-93FD-4197-9876-51E44E4F1C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F85AC37-93FD-4197-9876-51E44E4F1C49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5B97E5D-68BC-4815-BD8D-EF58B8FD6242}
+	EndGlobalSection
+EndGlobal
