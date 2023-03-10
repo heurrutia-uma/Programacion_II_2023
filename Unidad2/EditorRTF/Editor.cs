@@ -1,12 +1,6 @@
 ﻿using EditorRTF.Funciones;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace EditorRTF
@@ -239,6 +233,34 @@ namespace EditorRTF
         private void MenuAcercaDe_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Universidad Modular Abierta\nCentro Regional de Santa Ana\n\nEditor de texto RFT\nProgramación II\nCiclo I/2023");
+        }
+
+        private void CortarMenuItem_Click(object sender, EventArgs e)
+        {
+            ContenedorRFT.Cut();
+        }
+
+        private void CopiarMenuItem_Click(object sender, EventArgs e)
+        {
+            ContenedorRFT.Copy();
+        }
+
+        private void PegarMenuItem_Click(object sender, EventArgs e)
+        {
+            if (ContenedorRFT.CanPaste(DataFormats.GetFormat(DataFormats.Text)))
+                ContenedorRFT.Paste();
+        }
+
+        private void DeshacerMenuItem_Click(object sender, EventArgs e)
+        {
+            if (ContenedorRFT.CanUndo)
+                ContenedorRFT.Undo();
+        }
+
+        private void rehacerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (ContenedorRFT.CanRedo)
+                ContenedorRFT.Redo();
         }
     }
 
