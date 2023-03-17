@@ -19,3 +19,7 @@ Ejercicios desarrollados en clase
 - Unidad 2
   - Clase 11/02/2023
     - [Ejercicio 1](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad2/Ejercicio1)
+- Clase 04/03/2023
+    - [Finalización Editor RTF](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad2/EditorRTF)
+- Clase 11/03/2023
+    - [Ejercicio Formulario MDI](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad2/EjercicioMDI)    
