@@ -23,3 +23,5 @@ Ejercicios desarrollados en clase
       - [Finalización Editor RTF](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad2/EditorRTF)
   - Clase 11/03/2023
       - [Ejercicio Formulario MDI](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad2/EjercicioMDI)    
+  - Clase 18/03/2023
+      - [Ejercicio Diseño Modular](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad2/Modulos) 
