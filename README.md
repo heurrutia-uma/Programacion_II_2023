@@ -24,4 +24,9 @@ Ejercicios desarrollados en clase
   - Clase 11/03/2023
       - [Ejercicio Formulario MDI](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad2/EjercicioMDI)    
   - Clase 18/03/2023
-      - [Ejercicio Diseño Modular](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad2/Modulos) 
+      - [Ejercicio Diseño Modular](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad2/Modulos)
+- Unidad 3
+  - Clase 25/03/2023
+    - [Ejercicio Conexion a Fuentes de Datos](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad3/ConexionFuenteDatos)
+  - Clase 01/04/2023
+    - [Ejercicio Maestro/Detalle](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad3/MaestroDetalle)
