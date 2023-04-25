@@ -1,0 +1,75 @@
+﻿CREATE TABLE customer (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT,
+  email TEXT,
+  address TEXT
+);
+
+INSERT INTO customer (name, email, address)
+VALUES ('John Doe', 'johndoe@example.com', '123 Main St, Anytown USA');
+
+INSERT INTO customer (name, email, address)
+VALUES ('Jane Smith', 'janesmith@example.com', '456 Oak St, Anytown USA');
+
+INSERT INTO customer (name, email, address)
+VALUES ('Bob Johnson', 'bjohnson@example.com', '789 Elm St, Anytown USA');
+
+INSERT INTO customer (name, email, address)
+VALUES ('Alice Brown', 'abrown@example.com', '111 Cherry St, Anytown USA');
+
+INSERT INTO customer (name, email, address)
+VALUES ('Bill White', 'bwhite@example.com', '222 Maple St, Anytown USA');
+
+INSERT INTO customer (name, email, address)
+VALUES ('Carol Green', 'cgreen@example.com', '333 Oak St, Anytown USA');
+
+INSERT INTO customer (name, email, address)
+VALUES ('Dan Jones', 'djones@example.com', '444 Pine St, Anytown USA');
+
+INSERT INTO customer (name, email, address)
+VALUES ('Eva Black', 'eblack@example.com', '555 Walnut St, Anytown USA');
+
+INSERT INTO customer (name, email, address)
+VALUES ('Frank Lee', 'flee@example.com', '666 Birch St, Anytown USA');
+
+INSERT INTO customer (name, email, address)
+VALUES ('Grace Kim', 'gkim@example.com', '777 Cedar St, Anytown USA');
+
+INSERT INTO customer (name, email, address)
+VALUES ('Hank Brown', 'hbrown@example.com', '888 Ash St, Anytown USA');
+
+INSERT INTO customer (name, email, address)
+VALUES ('Ivy Chen', 'ichen@example.com', '999 Spruce St, Anytown USA');
+
+INSERT INTO customer (name, email, address)
+VALUES ('Joe Davis', 'jdavis@example.com', '111 Elm St, Anytown USA');
+
+INSERT INTO customer (name, email, address)
+VALUES ('Karen Lee', 'klee@example.com', '222 Pine St, Anytown USA');
+
+INSERT INTO customer (name, email, address)
+VALUES ('Larry King', 'lking@example.com', '333 Walnut St, Anytown USA');
+
+INSERT INTO customer (name, email, address)
+VALUES ('Mandy Lee', 'mlee@example.com', '444 Maple St, Anytown USA');
+
+INSERT INTO customer (name, email, address)
+VALUES ('Nancy Smith', 'nsmith@example.com', '555 Oak St, Anytown USA');
+
+INSERT INTO customer (name, email, address)
+VALUES ('Oliver Park', 'opark@example.com', '666 Cedar St, Anytown USA');
+
+INSERT INTO customer (name, email, address)
+VALUES ('Paul Brown', 'pbrown@example.com', '777 Ash St, Anytown USA');
+
+INSERT INTO customer (name, email, address)
+VALUES ('Queenie Lee', 'qlee@example.com', '888 Spruce St, Anytown USA');
+
+INSERT INTO customer (name, email, address)
+VALUES ('Randy Lee', 'rlee@example.com', '999 Birch St, Anytown USA');
+
+INSERT INTO customer (name, email, address)
+VALUES ('Samantha Lee', 'slee@example.com', '111 Cherry St, Anytown USA');
+
+INSERT INTO customer (name, email, address)
+VALUES ('Tom Davis', 'tdavis@example.com', '222 Maple St, Anytown USA');
