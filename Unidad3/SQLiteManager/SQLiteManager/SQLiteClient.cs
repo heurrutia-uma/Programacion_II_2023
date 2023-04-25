@@ -39,6 +39,11 @@ namespace SQLiteManager
         /// </summary>
         public void CreateDataBaseFile()
         {
+            string databasePath = Path.GetDirectoryName(this.SQLiteDatabasePath);
+
+            if (!Directory.Exists(databasePath))
+                Directory.CreateDirectory(databasePath);
+
             SQLiteConnection.CreateFile(this.SQLiteDatabasePath);
         }
 
