@@ -16,9 +16,11 @@ namespace ReporteParametrizado.Reports
                 Name = "ReportSource"
             };
 
+            FileStream fileStream = new FileStream(reportPath, FileMode.Open);
+
+            localReport.LoadReportDefinition(fileStream);
             localReport.DataSources.Clear();
             localReport.DataSources.Add(reportDataSource);
-            localReport.ReportPath = reportPath;
             localReport.Refresh();
         }
     }
