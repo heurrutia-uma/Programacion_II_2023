@@ -30,3 +30,7 @@ Ejercicios desarrollados en clase
     - [Ejercicio Conexion a Fuentes de Datos](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad3/ConexionFuenteDatos)
   - Clase 01/04/2023
     - [Ejercicio Maestro/Detalle](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad3/MaestroDetalle)
+  - Clase 15/04/2023
+    - [Ejercicio Diseño de Reportes](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad3/ReporteClientes)
+  - Clase 22/04/2023
+    - [Ejercicio Reporte Parametrizado](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad3/ReporteParametrizado)    
