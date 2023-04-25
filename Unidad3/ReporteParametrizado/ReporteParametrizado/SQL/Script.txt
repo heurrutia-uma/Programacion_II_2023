@@ -1,0 +1,137 @@
+﻿
+-- Create an entity table to store customer, vendor, and employee information
+CREATE TABLE entity (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  type STRING NOT NULL,
+  name STRING NOT NULL,
+  email STRING NOT NULL,
+  phone STRING,
+  address STRING,
+  city STRING,
+  state STRING,
+  zip STRING
+);
+
+-- Insert a customer record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('customer', 'John Smith', 'john.smith@example.com', '555-1234', '123 Main St', 'Anytown', 'CA', '12345');
+
+-- Insert a vendor record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('vendor', 'Acme Corporation', 'sales@acmecorp.com', '555-5678', '456 Elm St', 'Othertown', 'NY', '67890');
+
+-- Insert an employee record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('employee', 'Jane Doe', 'jane.doe@example.com', '555-9012', '789 Maple Ave', 'Smallville', 'TX', '23456');
+
+-- Insert another customer record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('customer', 'Susan Johnson', 'susan.johnson@example.com', '555-3456', '321 Oak St', 'Anycity', 'CA', '67890');
+
+-- Insert another vendor record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('vendor', 'Widgets Inc.', 'sales@widgetsinc.com', '555-7890', '654 Pine St', 'Othercity', 'NY', '34567');
+
+-- Insert another employee record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('employee', 'Bob Smith', 'bob.smith@example.com', '555-2345', '987 Cedar St', 'Tinytown', 'TX', '78901');
+
+-- Insert another customer record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('customer', 'David Lee', 'david.lee@example.com', '555-6789', '432 Birch Ln', 'Somewhere', 'CA', '23456');
+
+-- Insert another vendor record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('vendor', 'Gizmos Co.', 'sales@gizmosco.com', '555-1234', '876 Oak St', 'Anothercity', 'NY', '90123');
+
+-- Insert another employee record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('employee', 'Mary Johnson', 'mary.johnson@example.com', '555-5678', '543 Elm St', 'Biggercity', 'TX', '34567');
+
+-- Insert another customer record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('customer', 'Mark Davis', 'mark.davis@example.com', '555-9012', '234 Pine St', 'Nowhere', 'CA', '56789');
+
+-- Insert another vendor record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('vendor', 'Doohickeys LLC', 'sales@doohickeysllc.com', '555-3456', '765 Cedar St', 'Faraway', 'NY', '45678');
+
+-- Insert another customer record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('customer', 'Emily Adams', 'emily.adams@example.com', '555-6789', '987 Birch Ln', 'Somewherelse', 'CA', '45678');
+
+-- Insert another vendor record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('vendor', 'Thingamabobs Inc.', 'sales@thingamabobsinc.com', '555-1234', '765 Oak St', 'Anothercity', 'NY', '90123');
+
+-- Insert another employee record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('employee', 'Michael Brown', 'michael.brown@example.com', '555-5678', '321 Elm St', 'Biggercity', 'TX', '34567');
+
+-- Insert another customer record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('customer', 'Sarah Kim', 'sarah.kim@example.com', '555-9012', '456 Pine St', 'Nowhere', 'CA', '56789');
+
+-- Insert another vendor record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('vendor', 'Doodads Co.', 'sales@doodadsco.com', '555-3456', '654 Cedar St', 'Faraway', 'NY', '45678');
+
+-- Insert another employee record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('employee', 'Alexandra Lee', 'alexandra.lee@example.com', '555-7890', '234 Oak St', 'Smallville', 'TX', '78901');
+
+-- Insert another customer record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('customer', 'Jacob Williams', 'jacob.williams@example.com', '555-2345', '543 Birch Ln', 'Somewhere', 'CA', '23456');
+
+-- Insert another vendor record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('vendor', 'Gadgets Inc.', 'sales@gadgetsinc.com', '555-6789', '876 Pine St', 'Othercity', 'NY', '90123');
+
+-- Insert another employee record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('employee', 'Olivia Davis', 'olivia.davis@example.com', '555-1234', '432 Cedar St', 'Tinytown', 'TX', '78901');
+
+-- Insert another customer record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('customer', 'Ethan Johnson', 'ethan.johnson@example.com', '555-5678', '321 Maple Ave', 'Anytown', 'CA', '12345');
+
+-- Insert another customer record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('customer', 'Maria Hernandez', 'maria.hernandez@example.com', '555-9012', '765 Pine St', 'Nowhereville', 'CA', '56789');
+
+-- Insert another vendor record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('vendor', 'Widgets Co.', 'sales@widgetsco.com', '555-3456', '654 Cedar St', 'Farawayville', 'NY', '45678');
+
+-- Insert another employee record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('employee', 'Thomas Jackson', 'thomas.jackson@example.com', '555-7890', '234 Maple Ave', 'Smallville', 'TX', '78901');
+
+-- Insert another customer record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('customer', 'Avery Wilson', 'avery.wilson@example.com', '555-2345', '543 Elm St', 'Somewhereelse', 'CA', '23456');
+
+-- Insert another vendor record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('vendor', 'Gizmos Inc.', 'sales@gizmosinc.com', '555-6789', '876 Birch Ln', 'Othercityville', 'NY', '90123');
+
+-- Insert another employee record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('employee', 'Victoria Martinez', 'victoria.martinez@example.com', '555-1234', '432 Maple Ave', 'Tinyville', 'TX', '78901');
+
+-- Insert another customer record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('customer', 'Daniel Thompson', 'daniel.thompson@example.com', '555-5678', '321 Pine St', 'Anytownville', 'CA', '12345');
+
+-- Insert another vendor record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('vendor', 'Gadgets R Us', 'sales@gadgetsrus.com', '555-9012', '765 Oak St', 'Nowhere', 'NY', '56789');
+
+-- Insert another employee record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('employee', 'Benjamin Davis', 'benjamin.davis@example.com', '555-3456', '654 Elm St', 'Somewhere', 'TX', '45678');
+
+-- Insert another customer record
+INSERT INTO entity (type, name, email, phone, address, city, state, zip) VALUES
+('customer', 'Sofia Martin', 'sofia.martin@example.com', '555-7890', '234 Pine St', 'Smallvilleville', 'CA', '78901');
