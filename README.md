@@ -33,4 +33,7 @@ Ejercicios desarrollados en clase
   - Clase 15/04/2023
     - [Ejercicio Diseño de Reportes](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad3/ReporteClientes)
   - Clase 22/04/2023
-    - [Ejercicio Reporte Parametrizado](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad3/ReporteParametrizado)    
+    - [Ejercicio Reporte Parametrizado](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad3/ReporteParametrizado)
+- Unidad 4
+  - Clase 06/05/2023
+    - [Ejercicio Diseño de Software en 3 Capas](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad4/VMC)
