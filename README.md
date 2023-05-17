@@ -37,3 +37,5 @@ Ejercicios desarrollados en clase
 - Unidad 4
   - Clase 06/05/2023
     - [Ejercicio Diseño de Software en 3 Capas](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad4/VMC)
+  - Clase 13/05/2023
+    - [Proyecto modelo usando VMC](https://github.com/heurrutia-uma/Programacion_II_2023/tree/main/Unidad4/Proyecto)
